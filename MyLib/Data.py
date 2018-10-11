@@ -56,26 +56,21 @@ def cache_images(folder):
 
 def show_cached(all_fruits):
     plt.axes(frameon=False)
-    num_fruits = len(all_fruits.keys())
     k = 1
     for fruit in all_fruits:
         samples = random.sample(all_fruits[fruit], 3)
-        for img in samples:
-            plt.subplot(num_fruits, 3, k)
-            plt.axis('off')
-            k = k + 1
-            plt.imshow(img)
-    plt.show()
+        stack = numpy.hstack(samples)
+        cv2.imshow(fruit, stack)
+        cv2.waitKey()
 
 
 def show_cached_2(all_fruits):
-    num_fruits = len(all_fruits.keys())
     k = 1
     for fruit in all_fruits:
-        samples = random.sample(all_fruits[fruit], 3)
+        samples = random.sample(all_fruits[fruit], 4)
         for img in samples:
-            cv2.imshow('Image', img)
-            cv2.waitKey(5)
+            cv2.imshow(fruit, img)
+            cv2.waitKey()
 
 
 def normalize_and_pickle(all_fruits, folder, depth):
