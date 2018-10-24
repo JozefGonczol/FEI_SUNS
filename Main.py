@@ -28,4 +28,7 @@ import MyLib.Clustering as clu
 # Data.check_all_pickle()
 
 
-clu.get_results("Test")
+# clu.get_results("Test")
+
+# clu.k_means()
+clu.db_scan()

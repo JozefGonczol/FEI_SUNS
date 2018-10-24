@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="888c1147-0214-4b2f-bfad-dec82a4acf1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyLib/Clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FEI_SUNS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FEI_SUNS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLib/Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyLib/Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLib/Clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyLib/Clustering.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,33 +17,33 @@
     <session id="988697423">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="45" />
-          <entry key="py" value="1831" />
+          <entry key="py" value="2613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1876" />
+          <entry key="Python" value="2658" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -57,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyLib/Data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="173" column="32" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="32" />
+            <state relative-caret-position="-1536">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="63" selection-end-column="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -66,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="555">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -78,20 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyLib/Clustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="483">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1540391771207" expanded="true" signature="131:136" ph="..." />
-                <marker date="1540391771207" expanded="true" signature="301:302" ph="..." />
-                <marker date="1540391771207" expanded="true" signature="301:1026" ph="..." />
-                <marker date="1540391771207" expanded="true" signature="1047:1052" ph="..." />
-                <marker date="1540391771207" expanded="true" signature="1047:1122" ph="..." />
-                <marker date="1540391771207" expanded="true" signature="1165:1765" ph="..." />
-                <marker date="1540391771207" expanded="true" signature="1779:1780" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="211:216" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="381:382" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="381:1117" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="1138:1143" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="1138:1213" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="1257:2109" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="1854:2109" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="2123:2124" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="2123:2128" ph="..." />
+                <marker date="1540403276602" expanded="true" signature="3304:3813" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,12 +113,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MyLib/Data.py" />
-        <option value="$PROJECT_DIR$/MyLib/Clustering.py" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/MyLib/Clustering.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="226" />
     <option name="y" value="-14" />
     <option name="width" value="1400" />
@@ -155,7 +155,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,14 +212,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30911064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30911064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,10 +243,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FEI_SUNS/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyLib/Data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="173" column="32" selection-start-line="173" selection-start-column="21" selection-end-line="173" selection-end-column="32" />
+        <state relative-caret-position="-1536">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="63" selection-end-column="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -256,27 +272,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyLib/Clustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="483">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1540391771207" expanded="true" signature="131:136" ph="..." />
-            <marker date="1540391771207" expanded="true" signature="301:302" ph="..." />
-            <marker date="1540391771207" expanded="true" signature="301:1026" ph="..." />
-            <marker date="1540391771207" expanded="true" signature="1047:1052" ph="..." />
-            <marker date="1540391771207" expanded="true" signature="1047:1122" ph="..." />
-            <marker date="1540391771207" expanded="true" signature="1165:1765" ph="..." />
-            <marker date="1540391771207" expanded="true" signature="1779:1780" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1540403276602" expanded="true" signature="211:216" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="381:382" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="381:1117" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="1138:1143" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="1138:1213" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="1257:2109" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="1854:2109" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="2123:2124" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="2123:2128" ph="..." />
+            <marker date="1540403276602" expanded="true" signature="3304:3813" ph="..." />
           </folding>
         </state>
       </provider>
