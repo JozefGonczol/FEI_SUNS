@@ -61,7 +61,7 @@ def show_cached(all_fruits):
         samples = random.sample(all_fruits[fruit], 3)
         stack = numpy.hstack(samples)
         cv2.imshow(fruit, stack)
-        cv2.waitKey()
+        cv2.waitKey(10)
 
 
 def show_cached_2(all_fruits):
