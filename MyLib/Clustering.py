@@ -91,6 +91,7 @@ def k_means():
     in_data = np.reshape(test_data, (len(test_data), size * size * 3))
     in_data = np.float32(in_data)
     kmeans = KMeans(n_clusters=5, random_state=0).fit(in_data)
+    kmeans
     for center in kmeans.cluster_centers_:
         r_center = np.reshape(center, (100, 100, 3))
         index = find_nearest(r_center, test_data)
@@ -100,6 +101,7 @@ def k_means():
         stack = np.hstack(images)
         cv2.imshow(test_labels[index], stack)
         cv2.waitKey()
+
 
 def db_scan():
     all_data = pickle.load(open('data/all_data.pickle', 'rb'))
@@ -112,12 +114,14 @@ def db_scan():
     in_data = np.reshape(test_data, (len(test_data), size * size * 3))
     in_data = np.float32(in_data)
 
-    db = DBSCAN(eps=25, min_samples=2).fit(in_data)
+    db = DBSCAN(eps=25, min_samples=4).fit(in_data)
 
     n_cluster = len(np.unique(db.labels_)) - 1
+    print("Number of clusters {}".format(n_cluster))
     for i in range(0, n_cluster):
         clust_i = np.where(i == db.labels_)[0]
         cluster = np.take(test_data, clust_i, axis=0)
+        print("Cluster{}, Size:{}".format(i, len(cluster)))
         avg = get_mean(cluster)
         index = find_nearest(avg, test_data)
         images = []
@@ -125,10 +129,4 @@ def db_scan():
         images.append(test_data[index])
         stack = np.hstack(images)
         cv2.imshow(test_labels[index], stack)
-        cv2.waitKey()
-
-
-
-
-
-
+        cv2.waitKey(10)
