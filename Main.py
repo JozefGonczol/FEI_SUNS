@@ -39,8 +39,11 @@ all_data = pickle.load(open('data/all_data.pickle', 'rb'))
 
 Neuro.mlp(all_data, 50, 10)
 Neuro.mlp(all_data, 100, 10)
-Neuro.mlp(all_data, 200, 10)
 Neuro.mlp(all_data, 1000, 10)
 Neuro.mlp(all_data, 5000, 10)
-
-
+Neuro.mlp(all_data, 20000, 10)
+Neuro.my_svm(all_data, 50, 'rbf')
+Neuro.my_svm(all_data, 100, 'rbf')
+Neuro.my_svm(all_data, 1000, 'rbf')
+Neuro.my_svm(all_data, 5000, 'rbf')
+Neuro.my_svm(all_data, 20000, 'rbf')

@@ -13,7 +13,7 @@ def mlp(data, data_size, hidden_lay_number):
 
     train_data = np.reshape(data['train_data'][0:data_size], [len(data['train_data'][0:data_size]), dim * dim *3])
     train_labels = data['train_labels'][0:data_size]
-    test_data = np.reshape(data['test_data'], [len(data['test_data']), dim * dim *3])
+    test_data = np.reshape(data['test_data'], [len(data['test_data']), dim * dim * 3])
     test_labels = data['test_labels']
 
     clf = MLPClassifier(alpha=1e-5, hidden_layer_sizes=hidden_layers, random_state=1)
@@ -25,7 +25,7 @@ def mlp(data, data_size, hidden_lay_number):
     print(correct / len(labels))
 
 
-def svm(data, data_size, arch):
+def my_svm(data, data_size, arch):
     dim = len(data['train_data'][0])
 
     train_data = np.reshape(data['train_data'][0:data_size], [len(data['train_data'][0:data_size]), dim * dim * 3])
